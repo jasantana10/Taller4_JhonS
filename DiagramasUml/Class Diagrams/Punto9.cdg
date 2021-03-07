@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto9">
+  <ClassDiagramComponents>
+    <Class name="Fraccion" package="" visibility="public" xPosition="148.0" yPosition="61.0">
+      <Fields>
+        <Field name="numerador" type="int" visibility="private"/>
+        <Field name="denominador" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getnumerador" returnType="int" visibility="public"/>
+        <Method name="getdenominador" returnType="int" visibility="public"/>
+        <Method name="setnumerador" returnType="void" visibility="public">
+          <Argument type="int" name="numerador"/>
+        </Method>
+        <Method name="setdenominador" returnType="void" visibility="public">
+          <Argument type="int" name="denominador"/>
+        </Method>
+        <Method name="SumarFraccion" returnType="void" visibility="public"/>
+        <Method name="RestarFraccion" returnType="void" visibility="public"/>
+        <Method name="MultiplicarFraccion" returnType="void" visibility="public"/>
+        <Method name="DividirFraccion" returnType="void" visibility="public"/>
+        <Method name="SimplificarFraccion" returnType="void" visibility="public"/>
+        <Method name="ImprimirFraccion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

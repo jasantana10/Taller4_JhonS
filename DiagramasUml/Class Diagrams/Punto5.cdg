@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto5">
+  <ClassDiagramComponents>
+    <Class name="Producto" package="" visibility="public" xPosition="149.0" yPosition="50.0">
+      <Fields>
+        <Field name="codigo" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="precioCompra" type="double" visibility="private"/>
+        <Field name="porcentajeUtilidad" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getcodigo" returnType="int" visibility="public"/>
+        <Method name="getnombre" returnType="String" visibility="public"/>
+        <Method name="getprecioCompra" returnType="double" visibility="public"/>
+        <Method name="getporcentajeUtilidad" returnType="double" visibility="public"/>
+        <Method name="setcodigo" returnType="void" visibility="public">
+          <Argument type="int" name="codigo"/>
+        </Method>
+        <Method name="setnombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setprecioCompra" returnType="void" visibility="public">
+          <Argument type="double" name="precioCompra"/>
+        </Method>
+        <Method name="setporcentajeUtilidad" returnType="void" visibility="public">
+          <Argument type="double" name="porcentajeUtilidad"/>
+        </Method>
+        <Method name="PrecioVenta" returnType="double" visibility="public">
+          <Argument type="double" name="precioVenta"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

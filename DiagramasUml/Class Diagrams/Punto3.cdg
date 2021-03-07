@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto3">
+  <ClassDiagramComponents>
+    <Class name="Triangulo" package="" visibility="public" xPosition="162.0" yPosition="83.0">
+      <Fields>
+        <Field name="base" type="double" visibility="private"/>
+        <Field name="altura" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getbase" returnType="double" visibility="public"/>
+        <Method name="getaltura" returnType="double" visibility="public"/>
+        <Method name="setbase" returnType="void" visibility="public">
+          <Argument type="double" name="base"/>
+        </Method>
+        <Method name="setaltura" returnType="void" visibility="public">
+          <Argument type="double" name="altura"/>
+        </Method>
+        <Method name="CalclarArea" returnType="double" visibility="public"/>
+        <Method name="CalcularLadosIguales" returnType="double" visibility="public">
+          <Argument type="double" name="x"/>
+          <Argument type="double" name="z"/>
+        </Method>
+        <Method name="CalcularPerimetro" returnType="double" visibility="public">
+          <Argument type="double" name="x"/>
+          <Argument type="double" name="z"/>
+          <Argument type="double" name="p"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

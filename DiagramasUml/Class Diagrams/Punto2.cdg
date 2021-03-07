@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto2">
+  <ClassDiagramComponents>
+    <Class name="Coche" package="" visibility="public" xPosition="202.0" yPosition="15.0">
+      <Fields>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="modelo" type="String" visibility="private"/>
+        <Field name="N_caballos" type="int" visibility="private"/>
+        <Field name="N_puertas" type="int" visibility="private"/>
+        <Field name="matricula" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getcolor" returnType="String" visibility="public"/>
+        <Method name="getmarca" returnType="String" visibility="public"/>
+        <Method name="getmodelo" returnType="String" visibility="public"/>
+        <Method name="getN_caballos" returnType="int" visibility="public"/>
+        <Method name="getN_puertas" returnType="int" visibility="public"/>
+        <Method name="getmatricula" returnType="String" visibility="public"/>
+        <Method name="setcolor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+        <Method name="setmarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="setmodelo" returnType="void" visibility="public">
+          <Argument type="String" name="modelo"/>
+        </Method>
+        <Method name="setN_caballos" returnType="void" visibility="public">
+          <Argument type="int" name="N_caballos"/>
+        </Method>
+        <Method name="setN_puertas" returnType="void" visibility="public">
+          <Argument type="int" name="N_puertas"/>
+        </Method>
+        <Method name="setmatricula" returnType="void" visibility="public">
+          <Argument type="String" name="matricula"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
